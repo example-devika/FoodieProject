@@ -1,0 +1,43 @@
+
+.list-table-format{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr  1fr 0.5fr;
+    align-items: center;
+    gap:30px;
+    padding: 12px 15px;
+    border: 1px solid rgb(225, 168, 168);
+    font-size: 14px;
+}
+.category{
+    margin-right: 40px;
+}
+.image-title{
+    margin-right: 80px;
+}
+#image{
+    width: 50px;
+    height: 30px;
+}
+.cursor{
+    cursor: pointer;
+}
+.list-table-format.title{
+    background-color: rgb(190, 190, 47);
+ 
+
+}
+@media screen and  (max-width:600px){
+
+
+    .list-table-format{
+        grid-template-columns: 1fr 3fr 1fr;
+        gap:15px;
+
+
+    }
+    .list-table-format .title{
+        display: none;
+    }
+}
+
+
